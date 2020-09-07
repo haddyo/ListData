@@ -9,12 +9,12 @@ class AppHeader extends React.Component {
   }
 
   openSideNav = () => {
-    document.getElementById("mySidenav").style.width = "250px";
+    // document.getElementById("mySidenav").style.width = "250px";
   }
 
   /* Set the width of the side navigation to 0 */
   closeNav = () => {
-    document.getElementById("mySidenav").style.width = "0";
+    // document.getElementById("mySidenav").style.width = "0";
   }
   render() {
 
@@ -32,7 +32,7 @@ class AppHeader extends React.Component {
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onClick={this.closeNav}>&times;</a>
           <Nav.Link href="/home" onClick={this.closeNav}>Home</Nav.Link>
-          <Nav.Link href="/dashboard" onClick={this.closeNav}>Dashboard</Nav.Link>
+          <Nav.Link href="/userProfile" onClick={this.closeNav}>Dashboard</Nav.Link>
         </div>
 
       </div >

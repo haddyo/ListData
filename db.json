@@ -1,14 +1,98 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "id": 1,
+      "title": "Post 1",
+      "userName": "user1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "userName": "user1"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "userName": "user2"
+    },
+    {
+      "id": 4,
+      "title": "Post 4",
+      "userName": "user2"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1,
+      "subject": "RE: Post 1",
+      "userEmail": "abc1@abc.com"
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1,
+      "subject": "RE: Post 1",
+      "userEmail": "abc11@abc.com"
+    },
+    {
+      "id": 3,
+      "body": "some comment",
+      "postId": 2,
+      "subject": "RE: Post 2",
+      "userEmail": "abc2@abc.com"
+    },
+    {
+      "id": 4,
+      "body": "some comment",
+      "postId": 2,
+      "subject": "RE: Post 2",
+      "userEmail": "abc21@abc.com"
+    },
+    {
+      "id": 5,
+      "body": "some comment",
+      "postId": 3,
+      "subject": "RE: Post 3",
+      "userEmail": "abc3@abc.com"
+    },
+    {
+      "id": 6,
+      "body": "some comment",
+      "postId": 3,
+      "subject": "RE: Post 3",
+      "userEmail": "abc31@abc.com"
+    },
+    {
+      "id": 7,
+      "body": "some comment",
+      "postId": 4,
+      "subject": "RE: Post 4",
+      "userEmail": "abc4@abc.com"
+    },
+    {
+      "id": 8,
+      "body": "some comment",
+      "postId": 4,
+      "subject": "RE: Post 4",
+      "userEmail": "abc41@abc.com"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profile": [
+    {
+      "userName": "user1",
+      "fullName": "user1@post.com",
+      "email": "user1@post.com",
+      "website": "user1@post.com",
+      "company": "user1@post.com"
+    },
+    {
+      "userName": "user2",
+      "fullName": "user2@post.com",
+      "email": "user2@post.com",
+      "website": "user2@post.com",
+      "company": "user2@post.com"
+    }
+  ]
 }

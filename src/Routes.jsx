@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Redirect, Route } from "react-router-dom";
 
 // Page layouts
-import Dashboard from "./Components/layouts/Dashboard";
+import UserProfile from "./Components/layouts/UserProfile";
 import Home from "./Components/layouts/Home";
 
 
@@ -11,7 +11,7 @@ function PrivateRoutes() {
     <Switch>
       <Route exact path="/" render={() => <Redirect to="/home" />} />
       <Route path="/home" component={Home} />
-      <Route path="/dashboard" component={Dashboard} />
+      <Route path="/userProfile" component={UserProfile} />
     </Switch>
   );
 }
